@@ -1,0 +1,47 @@
+
+
+// to create the database
+
+turso db create <name-database> <options>
+
+
+
+// to replicate the database
+
+turso db replicate <name> <options>
+
+
+// options for turso commands
+
+// this command shows the locations  avalaible to you
+turso db locations
+
+
+// docs of turso
+https://docs.turso.tech/tutorials/get-started-turso-cli/step-04-make-queries-with-shell
+
+
+// library for create a client in turso
+npm i -E @libsql/client
+
+
+
+// clone only one folder of github
+
+Sí, puedes clonar solo una parte específica de tu repositorio de GitHub en lugar de clonar todo el repositorio. Para hacer esto, puedes utilizar el comando git clone seguido de la URL del repositorio y el directorio que deseas clonar.
+
+Supongamos que tu repositorio tiene la siguiente estructura:
+
+
+mi-repositorio
+|-- carpeta1
+|   |-- archivo1.txt
+|-- carpeta2
+|   |-- archivo2.txt
+|-- archivo3.txt
+Si solo quieres clonar la carpeta1 y su contenido, puedes hacer lo siguiente:
+
+git clone <URL_del_repositorio> --branch <nombre_de_la_rama> --single-branch carpeta1
+Donde <URL_del_repositorio> es la URL de tu repositorio en GitHub y <nombre_de_la_rama> es el nombre de la rama que deseas clonar (generalmente es "master" para la rama principal). En este ejemplo, solo se clonará la carpeta1 y su contenido en tu directorio actual.
+
+Recuerda reemplazar <URL_del_repositorio> y <nombre_de_la_rama> con la URL y el nombre de la rama específicos de tu repositorio.
